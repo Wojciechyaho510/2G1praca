@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
         <title>Tabelka_Bednarek</title>
-        <style>
+<style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: "Arial", sans-serif;
         }
         table {
             border-collapse: collapse;
@@ -15,11 +15,13 @@
             margin: 20px auto;
         }
         caption {
-            font-size: 24px;
+            font-size: 28px;
+            font-family: "Times New Roman", serif;
             font-weight: bold;
             color: white;
-            background-color: purple;
-            padding: 10px;
+            background-color: #8B008B; /* Głęboki fiolet */
+            padding: 15px;
+            text-transform: uppercase;
         }
         th, td {
             border: 2px solid black;
@@ -29,21 +31,29 @@
         th {
             background-color: #8B4513; /* Brązowy */
             color: white;
+            font-family: "Arial Black", sans-serif;
             font-size: 18px;
+            text-transform: uppercase;
         }
         td {
+            font-size: 16px;
             color: white;
+            font-family: "Calibri", sans-serif;
         }
         .green-dark {
-            background-color: #228B22; /* Ciemnozielony */
+            background-color: #006400; /* Ciemnozielony */
         }
         .green-light {
-            background-color: #98FB98; /* Jasnozielony */
+            background-color: #228B22; /* Zielony */
+        }
+        .light-green {
+            background-color: #90EE90; /* Jasnozielony */
         }
         .blue {
             background-color: #013d6b; /* Niebieski */
             color: white;
             font-weight: bold;
+            font-family: "Verdana", sans-serif;
         }
         .red {
             color: #FF4500; /* Czerwony */
@@ -51,10 +61,13 @@
         }
         .footer {
             text-align: center;
-            font-size: 20px;
+            font-size: 24px;
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
             color: white;
-            background-color: purple;
-            padding: 10px;
+            background-color: #8B008B; /* Fiolet */
+            padding: 15px;
+            text-transform: uppercase;
         }
     </style>
 </head>
@@ -92,21 +105,21 @@
                 <td>750 W</td>
                 <td class="blue">AKTYWNE</td>
             </tr>
-            <tr class="green-light">
+            <tr class="light-green">
                 <td>NVIDIA® GeForce GTX™ 1050 Ti</td>
                 <td>1392 MHz</td>
                 <td class="red">4 GB</td>
                 <td>300 W</td>
                 <td class="blue">AKTYWNE</td>
             </tr>
-            <tr class="green-light">
+            <tr class="light-green">
                 <td>GIGABYTE GeForce RTX 4060 Ti</td>
                 <td>2310 MHz</td>
                 <td class="red">8 GB</td>
                 <td>550 W</td>
                 <td class="blue">AKTYWNE</td>
             </tr>
-            <tr class="green-light">
+            <tr class="light-green">
                 <td>AMD Radeon RX 6750 XT</td>
                 <td>2623 MHz</td>
                 <td class="red">12 GB</td>
@@ -116,8 +129,6 @@
         </tbody>
     </table>
     <div class="footer">DANE KOMPUTEROWE</div>
-
-       
         <A HREF="index.html"> Wróć </A>
     </body>
 </html>
