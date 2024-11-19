@@ -4,14 +4,15 @@
     <head>
         <meta charset="utf-8">
         <title>Tabelka_Bednarek</title>
-    </head>
-            body {
+        <style>
+        body {
+            margin: 0;
             font-family: Arial, sans-serif;
         }
         table {
             border-collapse: collapse;
             width: 100%;
-            margin: 20px 0;
+            margin: 20px auto;
         }
         caption {
             font-size: 24px;
@@ -22,27 +23,37 @@
         }
         th, td {
             border: 2px solid black;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
         }
         th {
             background-color: #8B4513; /* Brązowy */
             color: white;
+            font-size: 18px;
         }
         td {
-            background-color: #228B22; /* Zielony */
             color: white;
         }
-        .aktywny {
+        .green-dark {
+            background-color: #228B22; /* Ciemnozielony */
+        }
+        .green-light {
+            background-color: #98FB98; /* Jasnozielony */
+        }
+        .blue {
             background-color: #013d6b; /* Niebieski */
             color: white;
             font-weight: bold;
         }
+        .red {
+            color: #FF4500; /* Czerwony */
+            font-weight: bold;
+        }
         .footer {
-            background-color: purple;
-            color: white;
             text-align: center;
             font-size: 20px;
+            color: white;
+            background-color: purple;
             padding: 10px;
         }
     </style>
@@ -60,51 +71,52 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="green-dark">
                 <td>GIGABYTE GeForce RTX 4070 Ti Super</td>
                 <td>2640 MHz</td>
-                <td>16 GB</td>
+                <td class="red">16 GB</td>
                 <td>750 W</td>
-                <td class="aktywny">AKTYWNE</td>
+                <td class="blue">AKTYWNE</td>
             </tr>
-            <tr>
+            <tr class="green-dark">
                 <td>ADM Radeon RX 7800 XT</td>
                 <td>2430 MHz</td>
-                <td>16 GB</td>
+                <td class="red">16 GB</td>
                 <td>750 W</td>
-                <td class="aktywny">AKTYWNE</td>
+                <td class="blue">AKTYWNE</td>
             </tr>
-            <tr>
+            <tr class="green-dark">
                 <td>AMD Radeon RX 7900 GRE</td>
                 <td>2333 MHz</td>
-                <td>16 GB</td>
+                <td class="red">16 GB</td>
                 <td>750 W</td>
-                <td class="aktywny">AKTYWNE</td>
+                <td class="blue">AKTYWNE</td>
             </tr>
-            <tr>
+            <tr class="green-light">
                 <td>NVIDIA® GeForce GTX™ 1050 Ti</td>
                 <td>1392 MHz</td>
-                <td>4 GB</td>
+                <td class="red">4 GB</td>
                 <td>300 W</td>
-                <td class="aktywny">AKTYWNE</td>
+                <td class="blue">AKTYWNE</td>
             </tr>
-            <tr>
+            <tr class="green-light">
                 <td>GIGABYTE GeForce RTX 4060 Ti</td>
                 <td>2310 MHz</td>
-                <td>8 GB</td>
+                <td class="red">8 GB</td>
                 <td>550 W</td>
-                <td class="aktywny">AKTYWNE</td>
+                <td class="blue">AKTYWNE</td>
             </tr>
-            <tr>
+            <tr class="green-light">
                 <td>AMD Radeon RX 6750 XT</td>
                 <td>2623 MHz</td>
-                <td>12 GB</td>
+                <td class="red">12 GB</td>
                 <td>700 W</td>
-                <td class="aktywny">AKTYWNE</td>
+                <td class="blue">AKTYWNE</td>
             </tr>
         </tbody>
     </table>
     <div class="footer">DANE KOMPUTEROWE</div>
+
        
         <A HREF="index.html"> Wróć </A>
     </body>
